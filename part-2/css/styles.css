@@ -15,15 +15,63 @@ body {
   margin: 0;
 }
 
+h1 {
+  display: block;
+}
+
+p {
+  display: block;
+}
+
 img {
   max-width: 100%;
 }
 
-figure {
+
+.film-poster {
   margin: 0;
+  position: relative;
+  display: inline-block;
+  max-width: 30%;
+
+}
+
+.action-watch-later {
+  display: inline-block;
+  position: absolute;
+  left: 80%;
+  top: 5%;
 }
 
 .film {
-  width: 50%;
+  max-width: 70%;
   margin: 40px auto;
+  overflow: auto;
+  position: relative;
+}
+
+article {
+  border: 1px solid black;
+    /*position: relative;*/
+}
+
+.film-details {
+  position: absolute;
+  display: inline-block;
+  max-width: 60%;
+  margin-left: 25px;
+  /*top: 5%;*/
+}
+
+
+.fa {
+  color: red;
+}
+
+.action-like {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
 }
